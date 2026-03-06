@@ -43,3 +43,6 @@ statics:
       expression: evt.Unmarshaled.authelia.time
     - meta: source_ip
       expression: evt.Unmarshaled.authelia.remote_ip
+    - meta: target_user
+      expression: evt.Parsed.user
+
